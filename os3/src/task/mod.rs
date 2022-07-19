@@ -8,6 +8,7 @@
 //!
 //! Be careful when you see [`__switch`]. Control flow around this function
 //! might not be what you expect.
+
 mod context;
 mod switch;
 #[allow(clippy::module_inception)]
